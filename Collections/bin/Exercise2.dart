@@ -53,7 +53,7 @@ void main() {
 
   print("li2 = $li2");
 
-  var li3 = li1.sublist(2, 5);
+  var li3 = li1.sublist(2, 6);
 
   print("li1 = $li1");
 

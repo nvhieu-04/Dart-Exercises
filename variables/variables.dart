@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print("Câu 1");
+  print("Câu 1:");
   print("Bạn tên gì? ");
   String? name = stdin.readLineSync();
 
@@ -19,8 +19,7 @@ void main() {
   if (number % 2 == 0) {
     if (number % 4 == 0) {
       print("Bội của 4");
-    }
-    else{
+    } else {
       print("Bạn nhập số chẳn");
     }
   } else {
@@ -34,13 +33,9 @@ void main() {
   String? divided = stdin.readLineSync();
   int numint = int.parse(numstring!);
   int check = int.parse(divided!);
-  if (numint % check == 0)
-  {
-      print("Chia hết");
-  }
-  else
-  {
-      print("Omg shock");
+  if (numint % check == 0) {
+    print("Chia hết");
+  } else {
+    print("Omg shock");
   }
 }
-

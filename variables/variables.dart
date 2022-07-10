@@ -1,4 +1,3 @@
-import 'package:variables/variables.dart' as variables;
 import 'dart:io';
 
 void main() {
